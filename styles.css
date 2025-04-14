@@ -261,6 +261,10 @@ nav ul li a.cta-button::after {
     color: var(--primary);
 }
 
+.period-break {
+    display: none;
+}
+
 .campaign-period {
     font-size: 1.1rem;
     color: var(--gray);
@@ -667,5 +671,11 @@ footer {
     
     section {
         padding: 70px 0;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .campaign h3 .period-break {
+        display: inline;
     }
 }
