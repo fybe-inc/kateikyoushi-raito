@@ -218,6 +218,15 @@ nav ul li a.cta-button::after {
     color: var(--dark);
 }
 
+.target-area {
+    background-color: rgba(0, 102, 204, 0.1);
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--primary);
+}
+
 /* Campaign Section */
 .campaign {
     background-color: #f5f9fd;
@@ -456,6 +465,25 @@ nav ul li a.cta-button::after {
     font-weight: 700;
     color: var(--primary);
     margin: 15px 0;
+}
+
+.phone-number a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.phone-number a:hover {
+    text-decoration: underline;
+}
+
+.price-info {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: var(--dark);
+    background-color: rgba(0, 102, 204, 0.05);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 500;
 }
 
 .line-qr {
